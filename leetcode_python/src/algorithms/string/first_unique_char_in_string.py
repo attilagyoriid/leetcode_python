@@ -1,7 +1,7 @@
 class FirstUniqueCharInString:
 
     @staticmethod
-    def first_unique_char( s: str) -> int:
+    def first_unique_char(s: str) -> int:
         """
         Find first unique character in string
         :param s: string to find unique character in
