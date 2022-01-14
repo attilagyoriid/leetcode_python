@@ -21,5 +21,6 @@ class BreathFirstSearchTraversal:
                     level.append(node.value)
                     queue.append(node.left)
                     queue.append(node.right)
-            result.append(level)
+            if level:
+                result.append(level)
         return result
